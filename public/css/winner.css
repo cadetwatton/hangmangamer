@@ -1,0 +1,12 @@
+ body {
+  background color: #000000;
+  background-image: url(https://ci.memecdn.com/1708288.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .play_again {
+	text-align: center;
+	color: maroon;
+	background-color: #4AE1FC;
+	font-size: 2.0rem;
+}

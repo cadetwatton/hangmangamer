@@ -1,0 +1,29 @@
+
+
+body {
+  background color: #000000;
+  background-image: url(https://media.giphy.com/media/dWxrEriQUSFW/giphy.gif);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .index_box {
+    width: 300px;
+    height: 300px;
+    float: center;
+    background: rgba(1, 0, 0, 0.6);
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.colorfont {
+	font-size: 2.5rem;
+	color: orange;
+	text-align: center;
+	text-shadow: 2.0;
+}

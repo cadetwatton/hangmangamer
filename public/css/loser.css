@@ -1,0 +1,12 @@
+ body {
+  background color: #000000;
+  background-image: url(https://media.tenor.co/images/7a8ed8ce2b6a8a8239a7112aa5ce322f/tenor.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .play_again {
+	text-align: center;
+	color: maroon;
+	background-color: #4AE1FC;
+	font-size: 2.0rem;
+}

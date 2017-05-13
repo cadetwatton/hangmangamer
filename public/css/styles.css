@@ -1,0 +1,48 @@
+ body {
+  background color: #000000;
+  background-image: url(https://i1.wp.com/libertimento.com.mx/main/wp-content/uploads/2016/11/hvsvol.gif?fit=500%2C270);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .welcometitle {
+ 	font-size: 3.0rem;
+ 	color: #FFBE33;
+ text-align: center;
+ }
+ .playerstyle1 {
+ 	font-size: 1.5rem;
+ 	color: #D4FF33;
+ text-align: center;
+}
+.playerstyle2 {
+	font-size: 1.5rem;
+	color: #FF33BB;
+text-align: center;
+}
+.pickname {
+	font-size: 1.0rem;
+	color: #F4425F;
+text-align: center;
+}
+.pickname2 {
+	font-size: 1.0rem;
+	color: #F4425F;
+text-align: center;
+}
+.color {
+	font-size: 1.5rem;
+	color: #48FFB4;
+	text-align: center;
+}
+.guessesleft {
+	font-size: 1.5rem;
+	color: #FFF000;
+	text-align: center;
+	font-weight: bold;
+}
+.centered {
+	text-align: center;
+}    

@@ -10,7 +10,7 @@
 <input type="hidden" name="player1" value="<%p1_name%>">
 <input type="hidden" name="player2" value="<%p2_name%>">
 <center><br><input class ="centered" type="submit" value="Enter Guess"/></center>
-<h3 class ="centered"><font color = red>Guesses <%=guesses%></font></h3>
+<h3 class ="centered"><font color = #D6FF89>Guesses <%=guesses%></font></h3>
 <h2 class ="centered"><font color = cyan><%=message%></font>
 <h2 class="guessesleft">Guesses left <%=counter%></h2>
 </form>
@@ -30,6 +30,7 @@
 	<img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Hangman-4.png">
 	<%end%>
 <%if counter == 1 %>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png">
+ <font size="8"><b><u><i>This is your last guess!!!
+	<br><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Hangman-5.png">
 	</center>
 	<%end%>

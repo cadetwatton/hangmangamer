@@ -10,13 +10,31 @@ get "/one_player" do
 end
 post "/one_player_name" do
 	session[:player1] = params[:player1]
-	redirect "/autoword"
+	redirect "/difficulty"
 end
-get "/autoword" do
-	dictionary = File.readlines("dictionary.txt").map(&:chomp)
+post "/difficulty" do
+	level = params[:difficulty]
+	if level == "difficulty1"
+	dictionary = File.readlines("dictionaryeasy.txt").map(&:chomp)
 	password = dictionary.sample
 	session[:game]=Hangman.new(password)
 	redirect "/guessing"
+	elsif
+	level == "difficulty2" 
+	dictionary = File.readlines("dictionarymed.txt").map(&:chomp)
+	password = dictionary.sample
+	session[:game]=Hangman.new(password)
+	redirect "/guessing"
+	elsif
+	level == "difficulty3"
+	dictionary = File.readlines("dictionaryhard.txt").map(&:chomp)
+	password = dictionary.sample
+	session[:game]=Hangman.new(password)
+	redirect "/guessing"
+	end
+end
+get "/difficulty" do
+	erb :difficulty, locals: {p1_name: session[:player1]}
 end
 post "/player_names" do
 	session[:player1] = params[:player1]

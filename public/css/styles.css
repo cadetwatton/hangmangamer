@@ -45,4 +45,10 @@ text-align: center;
 }
 .centered {
 	text-align: center;
+}
+.difficultycolor {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #00FF2E;
+	font-weight: bold;
 }    

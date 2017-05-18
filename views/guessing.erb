@@ -1,7 +1,7 @@
 <font color ="#FF0070"><%if choice == "single_player"%>
-<h2 class="centered"><%=p1_name%> start guessing!!
+<h2 class="centered1"><%=p1_name%> start guessing!!
 <%else%>
-<h2 class ="centered"><%=p2_name%> start guessing!!
+<h2 class ="centered2"><%=p2_name%> start guessing!!
 <%end%>
 <h1 class = "color"><%=blank.join(" ")%></h1><br>
 <form method ="post" action ="guess">
@@ -10,8 +10,8 @@
 <input type="hidden" name="player1" value="<%p1_name%>">
 <input type="hidden" name="player2" value="<%p2_name%>">
 <center><br><input class ="centered" type="submit" value="Enter Guess"/></center>
-<h3 class ="centered"><font color = #D6FF89>Guesses <%=guesses%></font></h3>
-<h2 class ="centered"><font color = cyan><%=message%></font>
+<h3 class ="centered3"><font color = #D6FF89>Guesses <%=guesses%></font></h3>
+<h2 class ="centered4"><font color = cyan><%=message%></font>
 <h2 class="guessesleft">Guesses left <%=counter%></h2>
 </form>
 <center><%if counter == 6 %>

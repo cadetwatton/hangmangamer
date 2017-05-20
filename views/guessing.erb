@@ -6,7 +6,8 @@
 <h1 class = "color"><%=blank.join(" ")%></h1><br>
 <form method ="post" action ="guess">
 
-<h4 class="centered1"><input type="text" name="letter" required maxlength="1" onkeyup="this.value = this.value.replace(/[^a-zA-Z]/, '')" autofocus>
+<h4 class="centered1"><input type="text" name="letter" required maxlength="1" onkeyup="this.value = this.value.replace(/[^a-zA-Z]/, '')" autofocus oninvalid="this.setCustomValidity('Please dont leave this blank!')"
+    oninput="setCustomValidity('')"/>
 <input type="hidden" name="player1" value="<%p1_name%>">
 <input type="hidden" name="player2" value="<%p2_name%>">
 <input class ="centered" type="submit" value="Enter Guess"/></center>

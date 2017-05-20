@@ -1,8 +1,10 @@
 <body>
 <div class ="index_box">
 <form action="/player_names" method="post" class="mix">
-<h4 class="playerstyle1">Player1:</h4><h1 class="pickname"><input type="text" name="player1" placeholder="Player 1 Enter name here" required autofocus maxlength="10"></h1>
-<h4 class="playerstyle2">Player2:</h4><h1 class="pickname"><input type="text" name="player2" placeholder="Player 2 Enter name here" required autofocus maxlength="10"></h1>
+<h4 class="playerstyle1">Player1:</h4><h1 class="pickname"><input type="text" name="player1" placeholder="Player 1 Enter name here" required autofocus maxlength="10" oninvalid="this.setCustomValidity('Please dont leave this blank!')"
+    oninput="setCustomValidity('')"/></h1>
+<h4 class="playerstyle2">Player2:</h4><h1 class="pickname"><input type="text" name="player2" placeholder="Player 2 Enter name here" required autofocus maxlength="10" oninvalid="this.setCustomValidity('Please dont leave this blank!')"
+    oninput="setCustomValidity('')"/></h1>
 <h1 class="pickname"><input type="submit" value="Enter"></h1>
 </div>
 </form>

@@ -43,8 +43,21 @@ text-align: center;
 	text-align: center;
 	font-weight: bold;
 }
-.centered {
+.centered1 {
 	text-align: center;
+}
+.centered2 {
+	text-align: center;
+	color: #7ec0ee;
+}
+.centered3 {
+	text-align: center;
+	color: cyan;
+}
+.centered4 {
+	text-align: center;
+	word-break: break-all;
+	color: pink; 
 }
 .difficultycolor {
 	font-size: 1.5rem;
